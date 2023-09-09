@@ -8,6 +8,7 @@ In the first line, you should input the number of rounds. In the following lines
 Here are some usage examples:
 
 First Example:
+
 Input:
 ```sh
 5
@@ -17,8 +18,11 @@ Input:
 112 106
 88  90
 ```
+Output:
+1 58
 
 Second Example:
+
 Input:
 ```sh
 3
@@ -26,8 +30,11 @@ Input:
 75 90
 120 110
 ```
+Output:
+1 50
 
 Third example:
+
 Input:
 ```sh
 4
@@ -36,8 +43,11 @@ Input:
 80 85
 90 100
 ```
+Output:
+2 20
 
 Fourth example:
+
 Input:
 ```sh
 6
@@ -48,8 +58,11 @@ Input:
 240 260
 250 270
 ```
+Output:
+1 50
 
 Fifth example:
+
 Input:
 ```sh
 7
@@ -61,3 +74,5 @@ Input:
 24  10
 33  12
 ```
+Output:
+1 31
