@@ -10,7 +10,7 @@ Here are some usage examples:
 First Example:
 Input:
 ```sh
-5 
+5
 140 82
 89  134
 90  110
