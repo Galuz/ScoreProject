@@ -71,7 +71,7 @@ def generate_results_file_content(winner):
     if winner is None:
         return "No hay ganador."
 
-    return f"El ganador es el Jugador {winner['player']} con una ventaja de {winner['margin']}."
+    return f"{winner['player']} {winner['margin']}"
 
 
 def main():
