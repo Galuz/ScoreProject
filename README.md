@@ -44,7 +44,7 @@ Input:
 90 100
 ```
 Output:
-2 20
+2 30
 
 Fourth example:
 
@@ -75,4 +75,4 @@ Input:
 33  12
 ```
 Output:
-1 31
+2 24
