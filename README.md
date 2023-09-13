@@ -7,6 +7,8 @@ In the first line, you should input the number of rounds. In the following lines
 
 Here are some usage examples:
 
+To run the code you have to apply next command: python score.py input_file_name.txt //in this case the name of the file is "input" but that could be changed. 
+
 First Example:
 
 Input:

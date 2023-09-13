@@ -1,3 +1,4 @@
+import argparse
 def calculate_winner(input_data):
     rounds = []
     winner = None
@@ -76,11 +77,17 @@ def generate_results_file_content(winner):
 
 def main():
      # Try to read the contents of the file 'input.txt' in the same directory.
+    parser = argparse.ArgumentParser(description="Calcula el ganador de un juego a partir de un archivo de entrada.")
+    parser.add_argument("input_file", help="Nombre del archivo de entrada")
+
+    args = parser.parse_args()
+    input_file_name = args.input_file
+
     try:
-        with open("input.txt", "r") as input_file:
+        with open(input_file_name, "r") as input_file:
             input_data = input_file.read()
     except FileNotFoundError:
-        print("El archivo 'input.txt' no se encontró en el directorio del proyecto.")
+        print(f"El archivo '{input_file_name}' no se encontró en el directorio del proyecto.")
         return
 
     rounds, winner, error_message = calculate_winner(input_data)
